@@ -1,0 +1,6 @@
+{
+  "name": "Vietnam Habitat Prediction WebGIS",
+  "description": "Hệ thống WebGIS tương tác dự báo sinh cảnh và xác suất phân bố các loài động vật hoang dã nguy cấp tại Việt Nam sử dụng các mô hình học máy và mô phỏng không gian địa lý vĩ mô.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
