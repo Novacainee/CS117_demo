@@ -226,7 +226,7 @@ export default function PredictionResult({ result, selectedSpeciesId }: Predicti
           Kiểm soát Đa Cộng Tuyến VIF (Multicollinearity Check)
         </div>
         <p className="text-[10px] text-amber-800 leading-normal">
-          Thuộc tính <strong>Nhiệt độ (Temperature)</strong> và <strong>Cao độ (Elevation)</strong> có độ tự tương quan vật lý cực kỳ cao ($R^2 \approx 0.96$). Thuật toán huấn luyện tự động phát hiện Temperature có <strong>VIF = 25.1 (&gt; 20)</strong> và đã thực hiện <strong>loại bỏ (dropped)</strong> nhằm triệt tiêu nhiễu sai số và tránh rò rỉ thông tin toán học.
+          Thuộc tính <strong>Nhiệt độ (Temperature)</strong> và <strong>Cao độ (Elevation)</strong> có độ tự tương quan vật lý cực kỳ cao (R^2 ≈ 0.96). Thuật toán huấn luyện tự động phát hiện Temperature có <strong>VIF = 25.1 (&gt; 20)</strong> và đã thực hiện <strong>loại bỏ (dropped)</strong> nhằm triệt tiêu nhiễu sai số và tránh rò rỉ thông tin toán học.
         </p>
         <div className="flex flex-wrap gap-2 mt-1">
           {result.vifInfo.map((info) => (
